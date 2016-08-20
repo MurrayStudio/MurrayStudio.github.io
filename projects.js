@@ -15,7 +15,7 @@ var main = function () {
     $('#title').addClass("expandOpenEdit");
 
     setTimeout(function () {
-        $('#first.image').addClass("slideLeft");
+        $('#zero.image').addClass("slideRight");
     }, 500); // delay 100 ms
 
 
@@ -46,7 +46,7 @@ var main = function () {
             transition: 'elastic',
             current: ''
         });
-        
+
         console.log("complete");
     });
 
@@ -525,6 +525,15 @@ var main = function () {
 
         /* BEGIN ANIMATION OF IMAGES WHEN SCROLLING JS */
 
+        $('#first.image').each(function () {
+            var imagePos2 = $(this).offset().top;
+
+            topOfWindow = $(window).scrollTop();
+            if (imagePos2 < topOfWindow + 500) {
+                $('#first.image').addClass("slideLeft");
+            }
+        });
+
         $('#second.image').each(function () {
             var imagePos2 = $(this).offset().top;
 
@@ -574,6 +583,17 @@ var main = function () {
     });
 
     //if page loads in middle, load the animations without scolling
+
+    $('#first.image').each(function () {
+        var imagePos2 = $(this).offset().top;
+
+        topOfWindow = $(window).scrollTop();
+        if (imagePos2 < topOfWindow + 500) {
+            $('#first.image').addClass("slideLeft");
+        }
+    });
+
+
     $('#second.image').each(function () {
         var imagePos2 = $(this).offset().top;
 

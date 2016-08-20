@@ -137,7 +137,7 @@ button.navbar-toggle {
 -------------------------------------------------- */
 
 .footer {
-    background-color: #F4F4F4;
+    background-color: #FAFAFA;
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
@@ -163,43 +163,50 @@ button.navbar-toggle {
 /* Featurettes
 ------------------------- */
 
-#row-1 {
+#row-0 {
     background-color: #FAFAFA;
     padding-bottom: 4%;
     padding-top: 4%;
     border-top: 1px solid rgba(0, 0, 0, .2);
 }
 
-#row-2 {
+#row-1 {
     background-color: #F4F4F4;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    border-top: 1px solid rgba(0, 0, 0, .2);
+}
+
+#row-2 {
+    background-color: #FAFAFA;
     padding-bottom: 4%;
     padding-top: 4%;
     border-top: 2px solid rgba(0, 0, 0, .2);
 }
 
 #row-3 {
-    background-color: #FAFAFA;
+    background-color: #F4F4F4;
     padding-bottom: 4%;
     padding-top: 4%;
     border-top: 2px solid rgba(0, 0, 0, .2);
 }
 
 #row-4 {
-    background-color: #F4F4F4;
-    padding-bottom: 4%;
-    padding-top: 4%;
-    border-top: 2px solid rgba(0, 0, 0, .2);
-}
-
-#row-5 {
     background-color: #FAFAFA;
     padding-bottom: 4%;
     padding-top: 4%;
     border-top: 2px solid rgba(0, 0, 0, .2);
 }
 
-#row-6 {
+#row-5 {
     background-color: #F4F4F4;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    border-top: 2px solid rgba(0, 0, 0, .2);
+}
+
+#row-6 {
+    background-color: #FAFAFA;
     padding-bottom: 4%;
     padding-top: 4%;
     border-top: 2px solid rgba(0, 0, 0, .2);
