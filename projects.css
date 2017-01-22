@@ -81,6 +81,8 @@ button.navbar-toggle {
     -o-transition: color 0.2s ease;
     transition: color 0.2s ease;
 }
+
+
 /* Title
 -------------------------------------------------- */
 
@@ -106,6 +108,8 @@ button.navbar-toggle {
 #title-container.container.marketing {
     height: auto;
 }
+
+
 /* Footer
 -------------------------------------------------- */
 
@@ -114,7 +118,6 @@ button.navbar-toggle {
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
-    
     height: auto;
 }
 
@@ -133,6 +136,8 @@ button.navbar-toggle {
     font-size: 16px;
     right: 5%;
 }
+
+
 /* Footer
 -------------------------------------------------- */
 
@@ -141,7 +146,6 @@ button.navbar-toggle {
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
-    
     height: auto;
 }
 
@@ -160,6 +164,8 @@ button.navbar-toggle {
     font-size: 16px;
     right: 5%;
 }
+
+
 /* Featurettes
 ------------------------- */
 
@@ -212,6 +218,20 @@ button.navbar-toggle {
     border-top: 2px solid rgba(0, 0, 0, .2);
 }
 
+#row-7 {
+    background-color: #FAFAFA;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    border-top: 2px solid rgba(0, 0, 0, .2);
+}
+
+#row-8 {
+    background-color: #FAFAFA;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    border-top: 2px solid rgba(0, 0, 0, .2);
+}
+
 .lead a {
     color: #f46902;
 }
@@ -240,6 +260,8 @@ button.navbar-toggle {
     height: auto;
     width: auto;
 }
+
+
 /* ============================================================
   Youtube Videos
 ============================================================ */
@@ -280,6 +302,7 @@ button.navbar-toggle {
     color: #f46902;
 }
 
+
 /* Murray Studio Gallery */
 
 #video-container-murray-studio {
@@ -317,6 +340,8 @@ button.navbar-toggle {
 #video-murray-studio.go-back:visited {
     color: #f46902;
 }
+
+
 /* ============================================================
   EFFECT 5 - ICON BORDER ANIMATE
 ============================================================ */
@@ -582,6 +607,8 @@ a.close-overlay {
 a.close-overlay.hidden {
     display: none;
 }
+
+
 /* ============================================================
   featurette
 ============================================================ */
@@ -592,6 +619,8 @@ a.close-overlay.hidden {
     visibility: hidden;
     /* Space out the Bootstrap <hr> more */
 }
+
+
 /* Thin out the marketing headings */
 
 .featurette-heading {
@@ -609,9 +638,12 @@ a.close-overlay.hidden {
     text-decoration: none;
     color: #f46902
 }
+
+
 /* ============================================================
   Galleries
 ============================================================ */
+
 
 /* Graphic Design Gallery */
 
@@ -648,6 +680,7 @@ a.close-overlay.hidden {
     color: #f46902;
 }
 
+
 /* Murray Studio Gallery */
 
 #image-gallery-murray-studio {
@@ -682,7 +715,8 @@ a.close-overlay.hidden {
 #gallery-murray-studio.go-back:visited {
     color: #f46902;
 }
-    
+
+
 /* Story Studio Gallery */
 
 #image-gallery-story-studio {
@@ -718,6 +752,7 @@ a.close-overlay.hidden {
     color: #f46902;
 }
 
+
 /* Risk Gallery */
 
 #image-gallery-risk {
@@ -752,7 +787,43 @@ a.close-overlay.hidden {
 #gallery-risk.go-back:visited {
     color: #f46902;
 }
-    
+
+
+/* Reddit Gallery */
+
+#image-gallery-reddit {
+    margin-top: 50px;
+    display: none;
+    visibility: hidden;
+}
+
+#gallery-heading-reddit {
+    display: none;
+    visibility: hidden;
+    margin-top: 0px;
+}
+
+#gallery-reddit.back-container {
+    position: relative;
+    width: 100%;
+    visibility: hidden;
+    display: none;
+    margin-top: 1%;
+}
+
+#gallery-reddit.go-back {
+    text-align: center;
+    color: #f46902;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    font-weight: 300;
+}
+
+#gallery-reddit.go-back:visited {
+    color: #f46902;
+}
+
 
 /* Responsive CSS
 -------------------------------------------------- */
